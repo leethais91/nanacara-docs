@@ -1,6 +1,15 @@
 {
   "sidebar": [
     {
+      "section": "Test demo",
+      "topics": [
+        {
+          "title": "Test child",
+          "slug": "test-child"
+        }
+      ]
+    },
+    {
       "section": "Introduction",
       "topics": [
         {
