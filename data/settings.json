@@ -1,11 +1,11 @@
 {
   "sidebar": [
     {
-      "section": "CODING STYLE",
+      "section": "CODING",
       "topics": [
         {
-          "title": "Naming",
-          "slug": "coding-styles/naming"
+          "title": "Coding style",
+          "slug": "coding-style"
         }
       ]
     },
