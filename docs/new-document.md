@@ -4,7 +4,7 @@ date: 2021-06-01
 slug: git-flow
 
 ---
-## What is git flow
+## What is  GIT FLOW
 
 Jamdocs is a documentation theme for Gridsome, built to spin up quick, beautiful and static documentation sites fast without hassle. Since there is no theming system for Gridsome yet, Jamdocs comes with Gridsome, plug-ins and packages as dependencies.
 
@@ -19,7 +19,7 @@ yarn install
 ```
 
     yarn install
-
+    
     git pull stories/4567
     git commit -m "Implement function A"
     git pull --rebase origin/stories/4567
