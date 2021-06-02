@@ -14,6 +14,12 @@ Even though Jamdocs is so simple, you dont really need to set it up localy (you 
 
 To set up a new instance of Jamdocs, and start developing just clone the project from Github like, go to the directory and run gridsome:
 
+```bash
+yarn install 
+```
+
+    yarn install
+
     git pull stories/4567
     git commit -m "Implement function A"
     git pull --rebase origin/stories/4567
