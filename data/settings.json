@@ -1,11 +1,11 @@
 {
   "sidebar": [
     {
-      "section": "Test demo",
+      "section": "Git",
       "topics": [
         {
-          "title": "Test child",
-          "slug": "test-child"
+          "title": "Git flow",
+          "slug": "git-flow"
         }
       ]
     },
