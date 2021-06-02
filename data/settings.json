@@ -1,6 +1,15 @@
 {
   "sidebar": [
     {
+      "section": "CODING STYLE",
+      "topics": [
+        {
+          "title": "Naming",
+          "slug": "coding-styles/naming"
+        }
+      ]
+    },
+    {
       "section": "Git",
       "topics": [
         {
