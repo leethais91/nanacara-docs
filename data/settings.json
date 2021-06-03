@@ -13,6 +13,10 @@
       "section": "GIT",
       "topics": [
         {
+          "title": "Git cheat sheet",
+          "slug": "git-cheat-sheet"
+        },
+        {
           "title": "Git working flow",
           "slug": "git-working-flow"
         },
