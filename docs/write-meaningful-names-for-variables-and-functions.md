@@ -76,7 +76,7 @@ for (const employee of employees)
     rewardingBonus(employee)
 ```
 
-> Can use collections nouns for better readability.
+Can use collections nouns for better readability.
 
 ```javascript
 const flockOfSheeps = ['Willy', 'Barry', 'Moe']
@@ -90,6 +90,8 @@ flockOfSheeps.forEach(sheep => {
 ## Functions
 
 Usually named as a combination of two parts: `transitive verb` + `direct object`
+
+
 In other words: `verb` + `noun`
 
 _Here example about naming functions_
