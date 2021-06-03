@@ -1,20 +1,20 @@
 {
   "sidebar": [
     {
-      "section": "GIT",
-      "topics": [
-        {
-          "title": "Commits tidy",
-          "slug": "tips-commit-tidy"
-        }
-      ]
-    },
-    {
       "section": "CODE",
       "topics": [
         {
           "title": "Naming convention",
           "slug": "coding-style-naming"
+        }
+      ]
+    },
+    {
+      "section": "GIT",
+      "topics": [
+        {
+          "title": "Commits tidy",
+          "slug": "tips-commit-tidy"
         }
       ]
     }
