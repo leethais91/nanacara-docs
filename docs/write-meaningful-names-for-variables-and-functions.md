@@ -4,8 +4,8 @@ date: 2020-01-02
 slug: coding-style-naming
 
 ---
-
 ## Basic rules
+
 Variables, functions, parameters -> `cameCase`
 Constants -> `SCREAMING_CASE`
 
@@ -18,7 +18,8 @@ const TAU = 2 * Math.PI
 ## Semantic Data Types
 
 ### Numbers, Strings, Objects
-> In most cases, numbers, strings, and individual objects are named with the most appropriate singular noun.
+
+In most cases, numbers, strings, and individual objects are named with the most appropriate singular noun.
 
 ```javascript
 const email = 'dev@codecomplete.jp'
@@ -31,7 +32,8 @@ const profile = {
 ```
 
 ### Booleans
-> The name for booleans are usually in the form yes-no question.
+
+The name for booleans are usually in the form yes-no question.
 
 ```javascript
 const isEmpty = true
@@ -43,7 +45,7 @@ function isOdd(num) {
 }
 ```
 
-> Don’t use negation in Boolean names. Don’t use names that require a prefix like `not` that inverts the variable’s truth value.
+Don’t use negation in Boolean names. Don’t use names that require a prefix like `not` that inverts the variable’s truth value.
 
 ```javascript
 // Don't do like this
@@ -56,7 +58,8 @@ const isValid = true;
 ```
 
 ### Array & Collections
-> Array and other collection (such as Map, Set) are name with `plural` noun in `camelCase`.
+
+Array and other collection (such as Map, Set) are name with `plural` noun in `camelCase`.
 
 ```javascript
 const sheeps = ['Willy', 'Barry', 'Moe']
@@ -64,7 +67,7 @@ const employees = ['Join', 'Mary', 'Adam']
 const remainingJobs = ['BUILD', 'DEPLOY', 'CLEAN']
 ```
 
->  Can use singular form of these nouns can be used as variable names during iteration.
+Can use singular form of these nouns can be used as variable names during iteration.
 
 ```javascript
 employees.forEach(employee => rewardingBonus(employee))
@@ -82,11 +85,14 @@ flockOfSheeps.forEach(sheep => {
 })
 ```
 
-Note: what is collections nouns?
+**Note:** [what is collections nouns](https://www.gingersoftware.com/content/grammar-rules/nouns/collective-nouns/)
 
 ## Functions
-> Usually named as a combination of two parts: `transitive verb` + `direct object`
+
+Usually named as a combination of two parts: `transitive verb` + `direct object`
 In other words: `verb` + `noun`
+
+_Here example about naming functions_
 
 ```javascript
 function getSum(a, b) { return a + b }

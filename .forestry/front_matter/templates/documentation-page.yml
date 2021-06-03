@@ -15,6 +15,4 @@ fields:
   name: slug
   label: slug
 pages:
-- docs/CODING/coding-style.md
 - docs/editing-in-forestry.md
-- docs/new-document.md
