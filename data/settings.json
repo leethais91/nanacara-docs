@@ -1,42 +1,20 @@
 {
   "sidebar": [
     {
-      "section": "CODING",
+      "section": "GIT",
       "topics": [
         {
-          "title": "Coding style",
-          "slug": "coding-style"
+          "title": "Commits tidy",
+          "slug": "tips-commit-tidy"
         }
       ]
     },
     {
-      "section": "Git",
+      "section": "CODE",
       "topics": [
         {
-          "title": "Git flow",
-          "slug": "git-flow"
-        }
-      ]
-    },
-    {
-      "section": "Introduction",
-      "topics": [
-        {
-          "title": "Getting started",
-          "slug": "getting-started"
-        }
-      ]
-    },
-    {
-      "section": "Setup",
-      "topics": [
-        {
-          "title": "Theme configuration",
-          "slug": "theme-configuration"
-        },
-        {
-          "title": "Forestry CMS",
-          "slug": "forestry-cms"
+          "title": "Naming convention",
+          "slug": "coding-style-naming"
         }
       ]
     }
