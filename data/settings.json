@@ -13,6 +13,10 @@
       "section": "GIT",
       "topics": [
         {
+          "title": "Pull Request rule",
+          "slug": "pull-request-rule"
+        },
+        {
           "title": "Commits tidy",
           "slug": "tips-commit-tidy"
         },
