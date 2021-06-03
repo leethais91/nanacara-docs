@@ -13,16 +13,16 @@
       "section": "GIT",
       "topics": [
         {
+          "title": "Commits tidy",
+          "slug": "tips-commit-tidy"
+        },
+        {
           "title": "Git cheat sheet",
           "slug": "git-cheat-sheet"
         },
         {
           "title": "Git working flow",
           "slug": "git-working-flow"
-        },
-        {
-          "title": "Commits tidy",
-          "slug": "tips-commit-tidy"
         }
       ]
     }
