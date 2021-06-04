@@ -7,6 +7,8 @@ slug: coding-style-naming
 ## Basic rules
 
 Variables, functions, parameters -> `cameCase`
+
+
 Constants -> `SCREAMING_CASE`
 
 ```javascript
@@ -90,7 +92,6 @@ flockOfSheeps.forEach(sheep => {
 ## Functions
 
 Usually named as a combination of two parts: `transitive verb` + `direct object`
-
 
 In other words: `verb` + `noun`
 
