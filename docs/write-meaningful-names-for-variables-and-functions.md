@@ -8,7 +8,6 @@ slug: coding-style-naming
 
 Variables, functions, parameters -> `cameCase`
 
-
 Constants -> `SCREAMING_CASE`
 
 ```javascript
@@ -21,7 +20,7 @@ const TAU = 2 * Math.PI
 
 ### Numbers, Strings, Objects
 
-In most cases, numbers, strings, and individual objects are named with the most appropriate singular noun.
+In most cases, numbers, strings, and individual objects are named with the most appropriate **singular noun**.
 
 ```javascript
 const email = 'dev@gmail.com'
@@ -69,7 +68,7 @@ const employees = ['Join', 'Mary', 'Adam']
 const remainingJobs = ['BUILD', 'DEPLOY', 'CLEAN']
 ```
 
-Can use singular form of these nouns can be used as variable names during iteration.
+Can use **singular form** of these nouns can be used as variable names during iteration.
 
 ```javascript
 employees.forEach(employee => rewardingBonus(employee))
@@ -78,7 +77,7 @@ for (const employee of employees)
     rewardingBonus(employee)
 ```
 
-Can use collections nouns for better readability.
+Can use **collections nouns** for better readability.
 
 ```javascript
 const flockOfSheeps = ['Willy', 'Barry', 'Moe']
