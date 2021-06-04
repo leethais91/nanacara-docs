@@ -16,8 +16,8 @@ function addStyleResource (rule) {
 }
 
 module.exports = {
-  siteName: 'Nanacaradocs',
-  siteUrl: 'https://jamdocs.samuelhorn.com',
+  siteName: 'NanaDocs',
+  siteUrl: 'https://nanacara-docs.netlify.app',
   templates: {
     Doc: '/:slug',
   },

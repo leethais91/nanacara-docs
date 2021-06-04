@@ -4,11 +4,11 @@
       "section": "CODE",
       "topics": [
         {
-          "title": "Naming convention",
+          "title": "Naming Convention",
           "slug": "coding-style-naming"
         },
         {
-          "title": "Code templates",
+          "title": "Code Templates",
           "slug": "code-templates"
         }
       ]
@@ -17,20 +17,20 @@
       "section": "GIT",
       "topics": [
         {
-          "title": "Pull Request rule",
-          "slug": "pull-request-rule"
-        },
-        {
-          "title": "Commits tidy",
+          "title": "Commits Tidy",
           "slug": "tips-commit-tidy"
         },
         {
-          "title": "Git cheat sheet",
-          "slug": "git-cheat-sheet"
+          "title": "Git Working Flow",
+          "slug": "git-working-flow"
         },
         {
-          "title": "Git working flow",
-          "slug": "git-working-flow"
+          "title": "Pull Request Rule",
+          "slug": "pull-request-rule"
+        },
+        {
+          "title": "Git Cheat Sheet",
+          "slug": "git-cheat-sheet"
         }
       ]
     }

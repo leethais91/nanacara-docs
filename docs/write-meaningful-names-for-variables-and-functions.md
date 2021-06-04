@@ -22,11 +22,11 @@ const TAU = 2 * Math.PI
 In most cases, numbers, strings, and individual objects are named with the most appropriate singular noun.
 
 ```javascript
-const email = 'dev@codecomplete.jp'
+const email = 'dev@gmail.com'
 const age = 20
 const profile = {
     username: 'dev',
-    email: 'dev@codecomplete.jp',
+    email: 'dev@gmail.com',
     experience: '3+ years make bad code',
 }
 ```
