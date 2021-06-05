@@ -17,13 +17,17 @@ query {
 </static-query>
 
 <script>
+import LazyHydrate from 'vue-lazy-hydration'
 import Header from '~/components/Header.vue'
 import Sidebar from '~/components/Sidebar.vue'
+import Search from '~/components/Search.vue'
 
 export default {
   components: {
+    LazyHydrate,
     Header,
-    Sidebar
+    Sidebar,
+    Search
   },
   props: {
     sidebar: {

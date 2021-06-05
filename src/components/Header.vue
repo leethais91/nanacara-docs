@@ -1,6 +1,7 @@
 <template>
   <header class="header" :class="{'header--scrolled' : pageScrolled}">
     <Logo :color="logoColor" />
+    <Search />
     <nav class="nav">
       <ThemeSwitch v-on:theme-change="updateLogo" />
       <MenuToggle v-if="menuToggle" />
@@ -12,13 +13,15 @@
 import ThemeSwitch from '~/components/ThemeSwitch.vue'
 import MenuToggle from '~/components/MenuToggle.vue'
 import Logo from '~/components/Logo.vue'
+import Search from '~/components/Search.vue'
 import throttle from 'lodash/throttle'
 
 export default {
   components: {
     ThemeSwitch,
     MenuToggle,
-    Logo
+    Logo,
+    Search
   },
   props: {
     menuToggle: {
@@ -57,6 +60,9 @@ export default {
 <style lang="scss" scoped>
 .header {
   display: flex;
+  // border-width: 1;
+  // border-color: red;
+  background-color: hsla(0,0%,100%,0.9);
   justify-content: space-between;
   align-items: center;
   position: fixed;
@@ -67,7 +73,7 @@ export default {
   padding: 15px 30px;
   transition: padding .15s linear, background .15s linear, border-color .15s linear;
   will-change: padding, background;
-  border-bottom: 1px solid transparent;
+  // border-bottom: 1px solid transparent;
 
   @include respond-above(sm) {
     padding: 30px;
