@@ -11,13 +11,13 @@ Lib: Use this [package](https://colorfy-software.gitbook.io/react-native-modalfy
 ## Show loading
 
 ### Example
-
+```javascript
     openModal('LoadingModal')
     // OR want to change the loading text
     openModal('LoadingModal', {
         label: "Custom loading text",
      })
-
+```
 ## Show message dialog
 
 ### Parameters
@@ -44,11 +44,11 @@ _Properties:_
 ### Examples
 
 _Simple dialog_
-
+```javascript
     openModal('MessageModal', { 'title': 'I am a simple dialog' })
-
+```
 _Dialog with more options_
-
+```javascript
     openModal('MessageModal', {
         title: "Delete this kid's profile",
         desc: 'After confirm, you can not revert the kid data',
@@ -61,6 +61,7 @@ _Dialog with more options_
           },
         ]
     })
+```
 
 ## Show prompt dialog
 
@@ -74,7 +75,7 @@ _Dialog with more options_
 | buttons | ButtonsArray | No | Array of buttons. Please check ButtonsArray to get more detail. onPress function will return text input value |
 
 ### Examples
-
+```javascript
     openModal('PromptModal', {
         title: 'Please input new seizure shortcut',
         desc: 'You can put more info here',
@@ -87,3 +88,4 @@ _Dialog with more options_
           { text: 'OK', onPress: (input) => { alert(input) }, type: 'active' },
         ]
     })
+```
