@@ -4,7 +4,6 @@ date: 2021-10-06
 slug: clean-code-with-modern-js
 
 ---
-## Use modern javascript to clean code
 
 > This guide is not intended to teach you JavaScript or ES6 syntax. I just show some keyword and personal tips via examples for you know when you can apply it.
 
