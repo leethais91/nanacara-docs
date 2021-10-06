@@ -16,5 +16,6 @@ fields:
   label: slug
 pages:
 - docs/JS/es6-destructuring-rest-parameters-and-spread-syntax.md
+- docs/JS/use-modern-javascript-to-clean-code.md
 - docs/editing-in-forestry.md
 - docs/medicine-management-note.md
