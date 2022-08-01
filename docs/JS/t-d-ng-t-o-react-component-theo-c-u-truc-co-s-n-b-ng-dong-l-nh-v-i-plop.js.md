@@ -63,3 +63,60 @@ yarn generate page <name>
 # Tạo custom hook
 yarn generate hook
 ```
+
+
+#### Cấu hình plop
+
+##### Cài đặt
+```bash
+yarn install plop
+```
+
+### Tạo file template component
+
+Tạo thư mục `plop` để chứa các file cấu hình liên quan
+
+```
+├── configs
+|  ├── component.config.js
+|  ├── hook.config.js
+|  └── page.config.js
+├── plopfile.js
+└── templates
+   ├── component.js.hbs
+   └── injectable-index.js.hbs
+```
+
+Lần lượt chúng ta sẽ giải thích chi tiết từng file
+
+##### `plopfile.js`
+```javascript
+const componentConfig = require("./configs/component.config");
+const pageConfig = require("./config/page.config");
+const hookConfig = require("./config/hook.config");
+
+module.exports = (plop) => {
+  plop.setGenerator("COMPONENT", componentConfig);
+  plop.setGenerator("PAGE", pageConfig);
+  plop.setGenerator("HOOK", hookConfig);
+};
+```
+Đây là file dùng để liệt kê các hàm generator sẽ được sử dụng  cùng với config của nó.
+
+Tiếp theo cần cập nhật script của file `package.json` để bổ sung câu lệnh tạo mã bằng plop
+
+```json
+...
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "generate": "plop --plopfile ./plop/plopfile.js"
+  },
+
+```
+
+## New format
+
+> 
