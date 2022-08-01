@@ -15,6 +15,7 @@ fields:
   name: slug
   label: slug
 pages:
+- docs/JS/t-d-ng-t-o-react-component-theo-c-u-truc-co-s-n-b-ng-dong-l-nh-v-i-plop.js.md
 - docs/JS/use-modern-javascript-to-clean-code.md
 - docs/editing-in-forestry.md
 - docs/medicine-management-note.md
