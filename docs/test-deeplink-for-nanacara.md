@@ -12,7 +12,7 @@ For testing link:
 
 ### Use onelink:
 
-[DEV](https://nanacara-dev.onelink.me/9jwF?pid=nanamedi&deep_link_value=MedicineSet)
+[DEV](https://nanacara-dev.onelink.me/9jwF?deep_link_value=MedicineSet)
 
 [STG](https://nanacara.onelink.me/rDen?deep_link_value=MedicineSet)
 
